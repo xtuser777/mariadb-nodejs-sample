@@ -1,0 +1,31 @@
+{
+  "name": "mariadb-nodejs-sample",
+  "version": "1.0.0",
+  "description": "Sample of MariaDB connection amd usage in nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtuser777/mariadb-nodejs-sample.git"
+  },
+  "keywords": [
+    "mariadb",
+    "nodejs",
+    "db",
+    "connection"
+  ],
+  "author": "Lucas Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtuser777/mariadb-nodejs-sample/issues"
+  },
+  "homepage": "https://github.com/xtuser777/mariadb-nodejs-sample#readme",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.0.3",
+    "mariadb": "^3.0.2",
+    "typescript": "^4.9.4"
+  }
+}
